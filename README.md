@@ -1,4 +1,4 @@
-# sevdesk-mcp
+# npm-sevdesk-mcp
 
 A Model Context Protocol (MCP) server for the [SevDesk](https://sevdesk.de) API. This package allows AI agents (like Claude) to interact with your SevDesk account to manage contacts, invoices, offers, and more.
 
@@ -7,13 +7,13 @@ A Model Context Protocol (MCP) server for the [SevDesk](https://sevdesk.de) API.
 You can use this MCP server directly via `npx` without installing it globally:
 
 ```bash
-npx sevdesk-mcp
+npx npm-sevdesk-mcp
 ```
 
 Or install it globally:
 
 ```bash
-npm install -g sevdesk-mcp
+npm install -g npm-sevdesk-mcp
 ```
 
 ## Configuration
