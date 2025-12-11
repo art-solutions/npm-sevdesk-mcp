@@ -31,7 +31,7 @@ Add the following to your Claude Desktop configuration file (`claude_desktop_con
   "mcpServers": {
     "sevdesk": {
       "command": "npx",
-      "args": ["-y", "sevdesk-mcp"],
+      "args": ["-y", "npm-sevdesk-mcp"],
       "env": {
         "SEVDESK_API_TOKEN": "YOUR_API_TOKEN_HERE"
       }

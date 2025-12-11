@@ -1,5 +1,5 @@
 {
-  "name": "sevdesk-mcp",
+  "name": "npm-sevdesk-mcp",
   "version": "1.0.0",
   "description": "Model Context Protocol (MCP) server for the SevDesk API - manage contacts, invoices, and offers through AI agents",
   "main": "dist/index.js",
@@ -27,7 +27,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/art-solutions/sevdesk-mcp.git"
+    "url": "git+https://github.com/art-solutions/npm-sevdesk-mcp.git"
   },
   "engines": {
     "node": ">=16.0.0"
