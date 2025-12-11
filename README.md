@@ -46,6 +46,27 @@ Add the following to your Claude Desktop configuration file (`claude_desktop_con
 - **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
 - **Linux**: `~/.config/Claude/claude_desktop_config.json`
 
+## Usage with Cursor
+
+1. Open **Cursor Settings**.
+2. Navigate to **Features > MCP**.
+3. Click **Add New MCP Server**.
+4. Enter the following details:
+   - **Name**: `sevdesk`
+   - **Type**: `command`
+   - **Command**: `npx -y npm-sevdesk-mcp`
+   - **Environment Variables**: Add a new variable with Key `SEVDESK_API_TOKEN` and your token as the Value.
+
+## Usage with ChatGPT Desktop
+
+1. Open the **ChatGPT Desktop** application (macOS/Windows).
+2. Go to **Settings**.
+3. Enable **Developer Mode** (if required) or look for **Connectors** / **MCP Servers**.
+4. Add a new server with the following configuration:
+   - **Name**: `sevdesk`
+   - **Command**: `npx -y npm-sevdesk-mcp`
+   - **Environment Variables**: `SEVDESK_API_TOKEN=YOUR_API_TOKEN`
+
 ## Available Tools
 
 ### Generic
