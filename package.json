@@ -1,0 +1,47 @@
+{
+  "name": "sevdesk-mcp",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (MCP) server for the SevDesk API - manage contacts, invoices, and offers through AI agents",
+  "main": "dist/index.js",
+  "bin": {
+    "sevdesk-mcp": "dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "sevdesk",
+    "api",
+    "invoices",
+    "contacts",
+    "offers",
+    "ai",
+    "claude",
+    "llm"
+  ],
+  "author": "art-solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/art-solutions/sevdesk-mcp.git"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.24.3",
+    "axios": "^1.13.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.9.3"
+  }
+}
